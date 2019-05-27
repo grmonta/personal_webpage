@@ -7,9 +7,16 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background-image: url("/image/pinkish.jpg");
+  background-image: url('/image/pinkish.jpg');
   background-size: cover;
   color: white;
+}
+
+:target::before {
+  content: '';
+  display: block;
+  height: 60px; /* fixed header height*/
+  margin: -100px 0 0; /* negative fixed header height */
 }
 
 h2 {
@@ -25,6 +32,7 @@ h2 {
   background-color: rgba(183, 110, 121, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 10px;
+
   position: fixed;
   top: 0;
   width: 100%;
@@ -82,6 +90,7 @@ h2 {
 .header-content {
   border: 5px;
   padding: 20px;
+
   margin: auto;
   text-align: center;
   align-content: center;
@@ -93,8 +102,8 @@ h2 {
 .header-content a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
-  padding: 2px;
+  font-size: 30px;
+  padding: 5px;
 }
 
 .header-content a:hover {
@@ -102,8 +111,9 @@ h2 {
   color: white;
   background-color: rgb(28, 129, 95);
   font-size: 18px;
-  padding: 2px;
-  margin: 2px;
+  padding: 5px;
+  font-size: 30px;
+  margin: 5px;
 }
 
 .header-img {
@@ -122,8 +132,9 @@ h2 {
 
 /* ABOUT ME  */
 .about {
-  margin-bottom: 20px;
-  padding: 20px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding: 80px 20px 20px 20px;
   background-color: rgba(183, 110, 121, 0.9);
   border-radius: 0.5%;
 }
@@ -133,6 +144,9 @@ h2 {
 
 /*  PROJECTS CONTAINER */
 .projects-container {
+  margin-bottom: 40px;
+  margin-top: 100px;
+  padding: 100px 20px 20px 20px;
   background-color: rgba(183, 110, 121, 0.9);
   border-radius: 0.5%;
 }
@@ -173,8 +187,8 @@ h2 {
 
 /* FORM  styling     */
 .contact-section {
-  padding: 20px;
-  margin-top: 20px;
+  padding: 100px 20px 50px 20px;
+  margin-top: 50px;
   margin-bottom: 20px;
   background-color: rgba(183, 110, 121, 0.9);
   border-radius: 2%;
@@ -283,8 +297,8 @@ footer {
   }
 
   .column {
-    flex: 25%;
-    max-width: 25%;
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
