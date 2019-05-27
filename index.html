@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Roboto"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!----------------- START OF PAGE------------- -->
+    <div class="page-wrapper">
+      <!--  ***************NAVIGATION BAR ****************-->
+      <nav class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="fas fa-bars"></i>
+        </span>
+        <a href="#home" class="logo">Home</a>
+        <ul class="main-nav" id="js-menu">
+         
+          <li>
+            <a href="#about-me" class="nav-links">About Me</a>
+          </li>
+            <li>
+              <a href="#" class="nav-links">Resume</a>
+            </li>
+          <li>
+            <a href="#projects" class="nav-links">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-links">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--  ***************NAVIGATION BAR END *************-->
+      <div class="content-wrapper">
+        <!--************** HEADER*************************** -->
+        <div class="header-container" id="home">
+          <div class="header-content">
+            <img
+              src="image/profileMd.jpg"
+              alt="profile-picture"
+              class="header-img"
+            />
+            <h2>GIOVAN MONTANARO</h2>
+            <p>Full Stack Developer</p>
+            <br />
+            <a href="#contact"><i class="fas fa-envelope-square"></i></a
+            ><a href="#"> <i class="fab fa-github-square"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <!-------- END OF HEADER SECTION ------------------------>
+
+        <!--********************** ABOUT ME******************-->
+        <div class="about">
+          <section id="about-me">
+            <h2>My Properties and Methods</h2>
+            <p>
+              I blame Mr. Rogers for my insatiable need to know how everything
+              is made. And so here I am today, fully capable at building web
+              pages and apps, because I just had to know how they were made. I
+              love it so much that I decided to change careers be a full time
+              developer.
+            </p>
+            <br />
+            <p>
+              I do have a different trajectory of most developers which has
+              gives me a unique perspective when listening to a client. I
+              understand what it is like to be a consumer and an employee on the
+              operational side of business. Mostly I understand that letting go
+              of an ego and listening to listen, will create amazing solutions
+              and avoid unnecessary re-work. Turns out our mothers were right,
+              if you listen the first times things will be easier.
+            </p>
+            <p>Keep scrolling to what I can do in my projects below.</p>
+          </section>
+        </div>
+
+        <!--********************** projects *************************-->
+
+        <div class="project-header"></div>
+        <div class="projects-container" id="projects">
+          <h2>Projects</h2>
+          <div class="row">
+            <!-- COLUMN 1 -->
+            <div class="column">
+              <a href="https://github.com/grmonta/quote_machine" target="_blank">
+                <img src="image/quotemachine.png" alt="picture of quiz" width="100%" />
+              </a>
+              <header class="project-header">
+                Quote and Image Generator
+              </header>
+              <div class="proj-desc">
+                <p>Skills: React, CSS, Boostrap, JS, HTML</p>
+                <p>A spin on the random quote machine. It displays a randome quote and the use is to find an image to match. It's completely subjective and its purpose is simply to give you a break and boost in your day.</p>
+              </div>
+            </div>
+            <!-- COLUMN 2 -->
+            <div class="column">
+              <a href="#linkToProjectOrCloseUpImage.jpg" target="_blank">
+                <img
+                  src="image/humanapp.jpg"
+                  alt="picture of human app"
+                  width="100%"
+                />
+              </a>
+              <header class="project-header">
+                Decent Human Calculator
+              </header>
+              <div class="proj-desc">
+               Skills: JavaScript, React, CSS, Semantic-UI, HTML.
+               Personal project that is still a work in progress.  It's a fun little app with the simple goal of reminding you to be a decent human being. The app collects your points and will rate you as a human for the day.
+              </div>
+            </div>
+            <!-- COLUMN 3 -->
+            <div class="column">
+              <a href="#linkToProjectOrCloseUpImage.jpg" target="_blank">
+                <img
+                  src="image/gifgenerator.jpg"
+                  alt="picture of quiz"
+                  width="100%"
+                />
+              </a>
+              <header class="project-header">
+                Gif Generator
+              </header>
+              <div class="proj-desc">
+                Fun project built using React, Semantic UI, JSS and HTML and API's, Axios.  
+              </div>
+            </div>
+            <!-- COLUMN 4 -->
+            <div class="column">
+              <a href="#linkToProjectOrCloseUpImage.jpg" target="_blank">
+                <img
+                  src="image/brickwall.jpg"
+                  alt="picture of quiz"
+                  width="100%"
+                />
+              </a>
+              <header class="project-header">
+                Da Chicago Quiz
+              </header>
+              <div class="proj-desc">
+                A fun Chicago quiz To Demostrate JavaScript skills Lorem, ipsum
+                dolor sit amet consectetur adipisicing elit. Sequi labore fuga
+                deserunt optio, inventore, a debitis natus itaque libero
+                molestiae laboriosam aliquam ad.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--********************** CONTACT FORm*********************-->
+        <div class="contact-section" id="contact">
+          <h2>Contact Form</h2>
+          <form name="htmlform" method="post" action="html_form_send.php">
+            <label for="fname">Name:</label>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Full name"
+              id="fname"
+            />
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" />
+
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message-content"
+              style="height:200pxS"
+            ></textarea>
+            <br />
+            <input type="submit" value="Submit" /><input
+              type="reset"
+              value="Clear"
+            />
+          </form>
+        </div>
+      </div>
+      <!--*************FOOTER  *************************-->
+      <footer>
+        <p>Giovan Montanaro</p>
+        <p>&copy  <script type="text/javascript">document.write(new Date().getFullYear())</script></script> </p>
+        
+      </footer>
+      <!-- ------------END OF PAGE WRAPPER------------------ -->
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

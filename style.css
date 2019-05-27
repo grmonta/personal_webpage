@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background-image: url(/image/pinkish.jpg);
+  background-size: cover;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*  NAVBAR STYLING */
+.navbar {
+  font-size: 18px;
+  color: rba(141, 148, 64);
+  background-color: rgba(183, 110, 121, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255);
+}
+
+.nav-links:hover {
+  color: rgb(28, 129, 95);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+}
+
+/* HEADER HOME PAGE CONTENT */
+.header-container {
+  /* background-image: url(/image/pinkish.jpg);
+  background-size: cover; */
+  height: 100vh;
+  display: flex;
+}
+
+.header-content {
+  border: 5px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  color: white;
+  border-radius: 2%;
+  background-color: rgba(183, 110, 121, 1);
+}
+
+.header-content a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  padding: 2px;
+}
+
+.header-content a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(28, 129, 95);
+  font-size: 18px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.header-img {
+  width: 100px;
+  padding-top: 7px;
+  max-width: 100%;
+  max-height: 30%;
+  border-radius: 10%;
+}
+
+/* CONTENT MARGIN AND STYLING  */
+.content-wrapper {
+  margin: auto;
+  padding: 5px 5px 5px 5px;
+}
+
+/* ABOUT ME  */
+.about {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(183, 110, 121, 0.9);
+  border-radius: 0.5%;
+}
+.about:hover {
+  background-color: rgb(28, 129, 95);
+}
+
+/*  PROJECTS CONTAINER */
+.projects-container {
+  background-color: rgba(183, 110, 121, 0.9);
+  border-radius: 0.5%;
+}
+
+.projects-container header {
+  font-size: 25px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column {
+  flex: 100%;
+  max-width: 100%;
+  border-top: solid blanchedalmond 0.3px;
+  border-radius: 2%;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.column:hover {
+  background-color: rgb(28, 129, 95, 0.9);
+}
+
+.column img {
+  vertical-align: middle;
+  max-height: 300px;
+  min-height: 300px;
+  max-width: 100%;
+
+  margin: auto;
+  padding: 20px;
+}
+
+/* FORM  styling     */
+.contact-section {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(183, 110, 121, 0.9);
+  border-radius: 2%;
+}
+
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type='submit'] {
+  background-color: rgba(232, 158, 169, 1);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type='reset'] {
+  background-color: rgba(232, 158, 169, 1);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: rgb(28, 129, 95);
+  color: blanchedalmond;
+}
+input[type='reset']:hover {
+  background-color: rgb(28, 129, 95);
+  color: blanchedalmond;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* FOOTER STYLING */
+footer {
+  background-color: rgba(183, 110, 121, 0.9);
+  text-align: center;
+}
+
+/* TABLET WIDTH RESPONSIVE SIZE */
+@media (min-width: 440px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* MEDIA SCREEN MIN OF 768 - DESKTOP  THIS LARGER CUZ PHOTOS, I NEED OT FIX*/
+@media screen and (min-width: 1000px) {
+  .content-wrapper {
+    margin: auto;
+    padding: 5px 100px 5px 100px;
+  }
+
+  .navbar {
+    display: flex;
+
+    justify-content: space-between;
+    padding-bottom: 0px;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin-left: 40px;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: white;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+}
+
+/* 
+@media (min-width: 1024px){
+ 
+...
+ 
+} */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait */
+/*  
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: portrait) {
+ 
+}
+ 
+/* Landscape */
+/*  
+@media only screen
+ 
+and (min-device-width: 375px)
+ 
+and (max-device-width: 667px)
+ 
+and (-webkit-min-device-pixel-ratio: 2)
+ 
+and (orientation: landscape) {
+ 
+}
+ 
+/* ----------- Google Pixel ----------- */
+
+/* Portrait */
+
+/* @media screen
+ 
+and (device-width: 360px)
+ 
+and (device-height: 640px)
+ 
+and (-webkit-device-pixel-ratio: 3)
+ 
+and (orientation: portrait) {
+ 
+}
+  */
+/* Landscape */
+/*  
+@media screen
+ 
+and (device-width: 360px)
+ 
+and (device-height: 640px)
+ 
+and (-webkit-device-pixel-ratio: 3)
+ 
+and (orientation: landscape) {
+ 
+}  */
