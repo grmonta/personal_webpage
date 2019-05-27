@@ -247,13 +247,13 @@ footer {
 /* TABLET WIDTH RESPONSIVE SIZE */
 @media (min-width: 440px) {
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
 /* MEDIA SCREEN MIN OF 768 - DESKTOP  THIS LARGER CUZ PHOTOS, I NEED OT FIX*/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   .content-wrapper {
     margin: auto;
     padding: 5px 100px 5px 100px;
