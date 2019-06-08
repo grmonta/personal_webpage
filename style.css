@@ -8,7 +8,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   background-color: white;
- background-image: url(/image/pinkish.jpg); 
+  background-image: url(/image/pinkish.jpg);
   /* background-size: cover;
   color: white;
   /* max-width: 1600px; */
@@ -25,8 +25,7 @@ body {
 
 h2 {
   text-align: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 15px;
 }
 
 /*  NAVBAR STYLING */
@@ -89,11 +88,7 @@ h2 {
   background-size: cover; */
   height: 100vh;
 
-
-  
   display: flex;
- 
-  
 }
 
 .header-content {
@@ -144,22 +139,22 @@ h2 {
 /* ---------ABOUT ME--------------  */
 .about {
   margin-bottom: 100px;
-  margin-top: 100px;
-  padding: 80px 20px 20px 20px;
+  margin-top: 20px;
+  padding: 60px 20px 20px 20px;
   background-color: rgba(183, 110, 121, 0.9);
-  border-radius: 0.5%;
+  border-radius: 2%;
 }
-.about:hover {
+/* .about:hover {
   background-color: rgb(28, 129, 95);
-}
+} */
 
 /*  PROJECTS CONTAINER */
 .projects-container {
-  margin-bottom: 40px;
-  margin-top: 100px;
-  padding: 100px 20px 20px 20px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  padding: 60px 20px 20px 20px;
   background-color: rgba(183, 110, 121, 0.9);
-  border-radius: 0.5%;
+  border-radius: 2%;
 }
 
 .projects-container header {
@@ -171,13 +166,18 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: 10px;
 }
 
 .column {
-
   display: flex;
   flex-direction: column;
-  align-items: center:
+  align-items: center;
+  column-gap: 20px;
+  border: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+
   /* flex: 100%;
   max-width: 100%;
   border-top: solid blanchedalmond 0.3px;
@@ -191,16 +191,16 @@ h2 {
 }
 
 .column img {
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   max-height: 400px;
+  padding-bottom: 5px;
   /* max-height: 400px;
   max-width: 400px;
   min-height: 400px;
   min-width: 400px */
-
 
   /* vertical-align: middle;
   max-height: 300px;
@@ -213,9 +213,9 @@ h2 {
 
 /* FORM  styling     */
 .contact-section {
-  padding: 100px 20px 50px 20px;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  padding: 60px 20px 20px 20px;
   background-color: rgba(183, 110, 121, 0.9);
   border-radius: 2%;
 }
@@ -225,7 +225,7 @@ textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 2%;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -233,33 +233,35 @@ textarea {
 }
 
 input[type='submit'] {
-  background-color: rgba(232, 158, 169, 1);
+  background-color: rgb(28, 129, 95);
   color: black;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2%;
   cursor: pointer;
+  margin-right: 5px;
 }
 input[type='reset'] {
-  background-color: rgba(232, 158, 169, 1);
+  background-color: rgb(28, 129, 95);
   color: black;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2%;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 input[type='submit']:hover {
-  background-color: rgb(28, 129, 95);
   color: blanchedalmond;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 input[type='reset']:hover {
-  background-color: rgb(28, 129, 95);
   color: blanchedalmond;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container {
-  border-radius: 5px;
+  border-radius: 2%;
   background-color: #f2f2f2;
   padding: 20px;
 }
