@@ -7,11 +7,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
-  background-color: blanchedalmond;
-  /* background-image: url('./image/pinkish.jpg'); */
-  /* background-size: cover; */
+  background-color: white;
+ background-image: url(/image/pinkish.jpg); 
+  /* background-size: cover;
   color: white;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -88,7 +88,12 @@ h2 {
   /* background-image: url(/image/pinkish.jpg);
   background-size: cover; */
   height: 100vh;
+
+
+  
   display: flex;
+ 
+  
 }
 
 .header-content {
@@ -128,7 +133,7 @@ h2 {
   border-radius: 10%;
 }
 
-/* CONTENT MARGIN AND STYLING  */
+/* ---------CONTENT MARGIN AND STYLING------  */
 .content-wrapper {
   padding: 5px;
   max-width: 900px;
@@ -136,7 +141,7 @@ h2 {
   margin-left: auto;
 }
 
-/* ABOUT ME  */
+/* ---------ABOUT ME--------------  */
 .about {
   margin-bottom: 100px;
   margin-top: 100px;
@@ -189,7 +194,7 @@ h2 {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 90%;
   max-height: 400px;
   /* max-height: 400px;
   max-width: 400px;
