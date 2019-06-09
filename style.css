@@ -1,18 +1,14 @@
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  margin: 0;
-
   background-image: url('image/pinkish.jpg');
   background-color: white;
-  /* background-size: cover;
-  color: white;
-  /* max-width: 1600px; */
+  font-family: 'Montserrat', sans-serif;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -31,10 +27,10 @@ h2 {
 
 /*  NAVBAR STYLING */
 .navbar {
-  font-size: 18px;
   color: rba(141, 148, 64);
   background-color: rgba(183, 110, 121);
   border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 18px;
   padding-bottom: 10px;
 
   position: fixed;
@@ -43,8 +39,8 @@ h2 {
 }
 
 .main-nav {
-  list-style-type: none;
   display: none;
+  list-style-type: none;
 }
 
 .active {
@@ -53,8 +49,8 @@ h2 {
 
 .nav-links,
 .logo {
-  text-decoration: none;
   color: rgba(255, 255, 255);
+  text-decoration: none;
 }
 
 .nav-links:hover {
@@ -64,86 +60,84 @@ h2 {
 }
 
 .main-nav li {
-  text-align: center;
   margin: 15px auto;
+  text-align: center;
 }
 
 .logo {
   display: inline-block;
   font-size: 22px;
-  margin-top: 10px;
+
   margin-left: 20px;
+  margin-top: 10px;
 }
 .navbar-toggle {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  cursor: pointer;
   color: white;
+  cursor: pointer;
   font-size: 24px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
 }
 
 /* HEADER HOME PAGE CONTENT */
 .header-container {
   /* background-image: url(/image/pinkish.jpg);
   background-size: cover; */
-  height: 100vh;
-
   display: flex;
+  height: 100vh;
 }
 
 .header-content {
-  border: 5px;
-  padding: 20px;
-
-  margin: auto;
-  text-align: center;
   align-content: center;
-  color: white;
+  background-color: rgba(183, 110, 121);
+  border: 5px;
   border-radius: 2%;
-  background-color: rgba(183, 110, 121, 1);
+  color: white;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
 }
 
 .header-content a {
-  text-decoration: none;
   color: white;
   font-size: 30px;
   padding: 5px;
+  text-decoration: none;
 }
 
 .header-content a:hover {
-  text-decoration: none;
-  color: white;
   background-color: rgb(28, 129, 95);
-  font-size: 18px;
-  padding: 5px;
+  color: white;
   font-size: 30px;
   margin: 5px;
+  padding: 5px;
+  text-decoration: none;
 }
 
 .header-img {
-  width: 100px;
-  padding-top: 7px;
-  max-width: 100%;
-  max-height: 30%;
   border-radius: 10%;
+  max-height: 30%;
+  max-width: 100%;
+  padding-top: 7px;
+  width: 100px;
 }
 
 /* ---------CONTENT MARGIN AND STYLING------  */
 .content-wrapper {
-  padding: 5px;
-  max-width: 900px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 900px;
+  padding: 5px;
 }
 
 /* ---------ABOUT ME--------------  */
 .about {
+  background-color: rgba(183, 110, 121);
+  border-radius: 2%;
   margin-bottom: 100px;
   margin-top: 20px;
   padding: 60px 20px 20px 20px;
-  background-color: rgba(183, 110, 121, 0.9);
-  border-radius: 2%;
 }
 /* .about:hover {
   background-color: rgb(28, 129, 95);
@@ -151,11 +145,11 @@ h2 {
 
 /*  PROJECTS CONTAINER */
 .projects-container {
+  background-color: rgba(183, 110, 121);
+  border-radius: 2%;
   margin-bottom: 100px;
   margin-top: 20px;
   padding: 60px 20px 20px 20px;
-  background-color: rgba(183, 110, 121, 0.9);
-  border-radius: 2%;
 }
 
 .projects-container header {
@@ -164,19 +158,20 @@ h2 {
 }
 
 .row {
+  border: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 10px;
 }
 
 .column {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   column-gap: 20px;
   border: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+
   padding: 10px;
 
   /* flex: 100%;
@@ -195,9 +190,11 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
   max-height: 400px;
+  max-width: 80%;
   padding-bottom: 5px;
+  /* width: 90%; */
+
   /* max-height: 400px;
   max-width: 400px;
   min-height: 400px;
@@ -214,62 +211,63 @@ h2 {
 
 /* FORM  styling     */
 .contact-section {
+  background-color: rgba(183, 110, 121);
+  border-radius: 2%;
   margin-bottom: 100px;
   margin-top: 20px;
   padding: 60px 20px 20px 20px;
-  background-color: rgba(183, 110, 121, 0.9);
-  border-radius: 2%;
 }
 
 input[type='text'],
 textarea {
-  width: 100%;
-  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 2%;
   box-sizing: border-box;
-  margin-top: 6px;
   margin-bottom: 16px;
+  margin-top: 6px;
+  padding: 12px;
   resize: vertical;
+  width: 100%;
 }
 
 input[type='submit'] {
   background-color: rgb(28, 129, 95);
-  color: black;
-  padding: 12px 20px;
   border: none;
   border-radius: 2%;
+  color: black;
   cursor: pointer;
   margin-right: 5px;
+  padding: 12px 20px;
 }
 input[type='reset'] {
   background-color: rgb(28, 129, 95);
-  color: black;
-  padding: 12px 20px;
   border: none;
   border-radius: 2%;
+  color: black;
   cursor: pointer;
   margin-left: 5px;
+  padding: 12px 20px;
 }
 
 input[type='submit']:hover {
-  color: blanchedalmond;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: blanchedalmond;
 }
 input[type='reset']:hover {
-  color: blanchedalmond;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: blanchedalmond;
 }
 
 .container {
-  border-radius: 2%;
   background-color: #f2f2f2;
+  border-radius: 2%;
   padding: 20px;
 }
 
 /* FOOTER STYLING */
 footer {
-  background-color: rgba(183, 110, 121, 0.9);
+  background-color: rgba(183, 110, 121);
+  color: white;
   text-align: center;
 }
 
@@ -289,20 +287,19 @@ footer {
   }
 
   .navbar {
+    align-items: center;
     display: flex;
-
+    height: 70px;
     justify-content: space-between;
     padding-bottom: 0px;
-    height: 70px;
-    align-items: center;
     max-width: 1600px;
   }
 
   .main-nav {
     display: flex;
-    margin-right: 30px;
     flex-direction: row;
     justify-content: flex-end;
+    margin-right: 30px;
   }
 
   .main-nav li {
