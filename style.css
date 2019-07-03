@@ -5,7 +5,6 @@
 }
 
 body {
-  background-image: url('image/pinkish.jpg');
   background-color: white;
   font-family: 'Montserrat', sans-serif;
 
@@ -82,8 +81,8 @@ h2 {
 
 /* HEADER HOME PAGE CONTENT */
 .header-container {
-  /* background-image: url(/image/pinkish.jpg);
-  background-size: cover; */
+  background-image: url(/image/pinkish.jpg);
+  background-size: cover;
   display: flex;
   height: 100vh;
 }
@@ -92,7 +91,7 @@ h2 {
   align-content: center;
   background-color: rgba(183, 110, 121);
   border: 5px;
-  border-radius: 2%;
+
   color: white;
   margin: auto;
   padding: 20px;
@@ -134,7 +133,7 @@ h2 {
 /* ---------ABOUT ME--------------  */
 .about {
   background-color: rgba(183, 110, 121);
-  border-radius: 2%;
+
   margin-bottom: 100px;
   margin-top: 20px;
   padding: 60px 20px 20px 20px;
@@ -146,7 +145,7 @@ h2 {
 /*  PROJECTS CONTAINER */
 .projects-container {
   background-color: rgba(183, 110, 121);
-  border-radius: 2%;
+
   margin-bottom: 100px;
   margin-top: 20px;
   padding: 60px 20px 20px 20px;
@@ -212,7 +211,7 @@ h2 {
 /* FORM  styling     */
 .contact-section {
   background-color: rgba(183, 110, 121);
-  border-radius: 2%;
+
   margin-bottom: 100px;
   margin-top: 20px;
   padding: 60px 20px 20px 20px;
@@ -221,7 +220,7 @@ h2 {
 input[type='text'],
 textarea {
   border: 1px solid #ccc;
-  border-radius: 2%;
+
   box-sizing: border-box;
   margin-bottom: 16px;
   margin-top: 6px;
@@ -233,7 +232,7 @@ textarea {
 input[type='submit'] {
   background-color: rgb(28, 129, 95);
   border: none;
-  border-radius: 2%;
+
   color: black;
   cursor: pointer;
   margin-right: 5px;
@@ -242,7 +241,7 @@ input[type='submit'] {
 input[type='reset'] {
   background-color: rgb(28, 129, 95);
   border: none;
-  border-radius: 2%;
+
   color: black;
   cursor: pointer;
   margin-left: 5px;
@@ -260,7 +259,7 @@ input[type='reset']:hover {
 
 .container {
   background-color: #f2f2f2;
-  border-radius: 2%;
+
   padding: 20px;
 }
 
