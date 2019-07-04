@@ -5,10 +5,10 @@
 }
 
 body {
-  background-color: white;
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  background-color: #f0ebef;
 
+  color: white;
+  font-family: 'DM Serif Text', serif;
   margin-left: auto;
   margin-right: auto;
 }
