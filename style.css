@@ -59,6 +59,11 @@ h2 {
   font-size: 1.2em;
 }
 
+#logo_pic {
+  max-height: 60px;
+  padding-top: 5px;
+}
+
 .main-nav li {
   margin: 15px auto;
   text-align: center;
