@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f0ebef;
+  background-color: #dbd7da;
 
   color: white;
   font-family: 'DM Serif Text', serif;
@@ -82,7 +82,7 @@ h2 {
 
 /* HEADER HOME PAGE CONTENT */
 .header-container {
-  background-image: url(/image/pinkish.jpg);
+  background-image: url(/images/pinkish.jpg);
   background-size: cover;
   display: flex;
   height: 100vh;
